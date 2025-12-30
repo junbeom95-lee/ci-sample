@@ -1,4 +1,4 @@
-# Java 21 slim 이미지 사용
+# Java 17 이미지 사용
 FROM eclipse-temurin:17-jdk-jammy
 
 # jar 파일을 컨테이너 내부에 복사
