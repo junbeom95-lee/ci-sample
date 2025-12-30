@@ -43,5 +43,5 @@ jobs:
           script: |
             docker pull ${{ secrets.DOCKER_USERNAME }}/my-app:latest
             cd /home/ubuntu
-            docker-compose down
-            docker-compose up -d
+            docker compose down
+            docker compose up -d
