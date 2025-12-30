@@ -20,4 +20,7 @@ class SampleController {
     @GetMapping("/test")
     fun test() = "test"
 
+    @GetMapping("/realtest")
+    fun realtest() = "test"
+
 }
