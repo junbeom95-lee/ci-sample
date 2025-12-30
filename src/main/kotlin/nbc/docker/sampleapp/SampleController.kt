@@ -16,4 +16,7 @@ class SampleController {
 
     @GetMapping("/items")
     fun findItems() = items
+
+    @GetMapping("/")
+    fun test() = "test"
 }
